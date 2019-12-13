@@ -194,9 +194,6 @@ class StoreControllerTest {
             assertThat(responseEntity.getBody()).isEqualTo(errorBody);
         }
     	
-    	
-    	
-    	
     	@Test
         void Test_delete_Store_givenValidId_thenReturn204() throws Exception {
             // given
