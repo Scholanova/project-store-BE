@@ -22,59 +22,54 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @JdbcTest
 class StocksRepositoryTest {
 
-	  @Test
-      void whenStoreExists_thenReturnsTheStore() throws Exception {
-          // Then
-          assertThat(true).isFalse();
-      }
 	  
-//    @Autowired
-//    private StocksRepository stocksRepository;
-//
-//    @Autowired
-//    private JdbcTemplate jdbcTemplate;
-//    
-//    private static final Integer storeId = 2;
-//    
-//    @BeforeEach
-//    void startStore() {
-//    	
-//    	String storeName = "Auchan";
-//    	Store store = new Store (storeId, storeName);
-//    	insertStore(store);
-//    }
-//    
-//    @AfterEach
-//    void cleanUp() {
-//    	JdbcTestUtils.deleteFromTables(jdbcTemplate, "STORE");
-//        JdbcTestUtils.deleteFromTables(jdbcTemplate, "STOCKS");
-//    }
-//
-//        @Test
-//        void whenNoStocksWithThatId_thenThrowsException() throws Exception {
-//            // Given
-//            Integer id = 1000;
-//
-//            // When & Then
-//            assertThrows(ModelNotFoundException.class, () -> {
-//            	stocksRepository.getById(id);
-//            });
-//        }
-//
-//        @Test
-//        void whenStocksExists_thenReturnsTheStocks() throws Exception {
-//            // Given
-//            Integer id = 1;
-//            Stocks stocks = new Stocks(id, "Pomme", "Fruit", 20);
-//            insertStocks(stocks, storeId);
-//
-//            // When
-//            Stocks extractedStocks = stocksRepository.getById(id);
-//
-//            // Then
-//            assertThat(extractedStocks).isEqualToComparingFieldByField(stocks);
-//        }
-//
+    @Autowired
+    private StocksRepository stocksRepository;
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+    
+    private static final Integer storeId = 2;
+    
+    @BeforeEach
+    void startStore() {
+    	
+    	String storeName = "Auchan";
+    	Store store = new Store (storeId, storeName);
+    	insertStore(store);
+    }
+    
+    @AfterEach
+    void cleanUp() {
+    	JdbcTestUtils.deleteFromTables(jdbcTemplate, "STORE");
+        JdbcTestUtils.deleteFromTables(jdbcTemplate, "STOCKS");
+    }
+
+        @Test
+        void whenNoStocksWithThatId_thenThrowsException() throws Exception {
+            // Given
+            Integer id = 1000;
+
+            // When & Then
+            assertThrows(ModelNotFoundException.class, () -> {
+            	stocksRepository.getById(id);
+            });
+        }
+
+        @Test
+        void whenStocksExists_thenReturnsTheStocks() throws Exception {
+            // Given
+            Integer id = 1;
+            Stocks stocks = new Stocks(id, "Pomme", "Fruit", 20);
+            insertStocks(stocks, storeId);
+
+            // When
+            Stocks extractedStocks = stocksRepository.getById(id);
+
+            // Then
+            assertThat(extractedStocks).isEqualToComparingFieldByField(stocks);
+        }
+
 //
 //        @Test
 //        void whenCreateStocks_thenStocksIsInDatabaseWithId() {
