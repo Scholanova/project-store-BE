@@ -41,8 +41,9 @@ class StocksRepositoryTest {
     
     @AfterEach
     void cleanUp() {
-    	JdbcTestUtils.deleteFromTables(jdbcTemplate, "STORE");
-        JdbcTestUtils.deleteFromTables(jdbcTemplate, "STOCKS");
+    	JdbcTestUtils.deleteFromTables(jdbcTemplate, "STOCKS");
+    	JdbcTestUtils.deleteFromTables(jdbcTemplate, "STORES");
+        
     }
 
         @Test
@@ -70,41 +71,41 @@ class StocksRepositoryTest {
             assertThat(extractedStocks).isEqualToComparingFieldByField(stocks);
         }
 
-//
-//        @Test
-//        void whenCreateStocks_thenStocksIsInDatabaseWithId() {
-//            // Given
-//            String stocksName = "Pomme";
-//            String type = "Fruit";
-//            Integer value = 20;
-//            Stocks stocksToCreate = new Stocks(null, stocksName, type, value);
-//
-//            // When
-//            Stocks createdStocks = stocksRepository.create(stocksToCreate, storeId);
-//
-//            // Then
-//            assertThat(createdStocks.getId()).isNotNull();
-//            assertThat(createdStocks.getName()).isEqualTo(stocksName);
-//            assertThat(createdStocks.getType()).isEqualTo(type);
-//            assertThat(createdStocks.getValue()).isEqualTo(value);
-//        }
-//
-//    private void insertStore(Store store) {
-//        String query = "INSERT INTO STORES " +
-//                "(ID, NAME) " +
-//                "VALUES ('%d', '%s')";
-//        jdbcTemplate.execute(
-//                String.format(query, store.getId(), store.getName()));
-//    }
-//    
-//    private void insertStocks(Stocks stocks, Integer idStore) {
-//        String query = "INSERT INTO STOCKS " +
-//                "(ID, NAME, TYPE, VALUE, IDSTORE) " +
-//                "VALUES ('%d', '%s', '%s', '%d', '%d')";
-//        jdbcTemplate.execute(
-//                String.format(query, stocks.getId(), stocks.getName(), stocks.getType(), stocks.getValue(), idStore));
-//    }
-//    
+
+        @Test
+        void whenCreateStocks_thenStocksIsInDatabaseWithId() {
+            // Given
+            String stocksName = "Pomme";
+            String type = "Fruit";
+            Integer value = 20;
+            Stocks stocksToCreate = new Stocks(null, stocksName, type, value);
+
+            // When
+            Stocks createdStocks = stocksRepository.create(stocksToCreate, storeId);
+
+            // Then
+            assertThat(createdStocks.getId()).isNotNull();
+            assertThat(createdStocks.getName()).isEqualTo(stocksName);
+            assertThat(createdStocks.getType()).isEqualTo(type);
+            assertThat(createdStocks.getValue()).isEqualTo(value);
+        }
+
+    private void insertStore(Store store) {
+        String query = "INSERT INTO STORES " +
+                "(ID, NAME) " +
+                "VALUES ('%d', '%s')";
+        jdbcTemplate.execute(
+                String.format(query, store.getId(), store.getName()));
+    }
+    
+    private void insertStocks(Stocks stocks, Integer idStore) {
+        String query = "INSERT INTO STOCKS " +
+                "(ID, NAME, TYPE, VALUE, IDSTORE) " +
+                "VALUES ('%d', '%s', '%s', '%d', '%d')";
+        jdbcTemplate.execute(
+                String.format(query, stocks.getId(), stocks.getName(), stocks.getType(), stocks.getValue(), idStore));
+    }
+    
     
 //    @Nested
 //    class Test_delete {

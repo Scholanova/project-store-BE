@@ -48,9 +48,9 @@ public class StocksRepository {
 
 	public Stocks getById(Integer id) throws ModelNotFoundException {
 		String query = "SELECT ID as id, " +
-				"NAME AS name " +
-				"TYPE AS type " +
-				"VALUE AS value " +
+				"NAME AS name, " +
+				"TYPE AS type, " +
+				"VALUE AS value, " +
 				"IDSTORE AS idStore " +
 				"FROM STOCKS " +
 				"WHERE ID = :id";
