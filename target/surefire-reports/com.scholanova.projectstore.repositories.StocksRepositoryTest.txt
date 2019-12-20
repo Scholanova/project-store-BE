@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.scholanova.projectstore.repositories.StocksRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.785 s <<< FAILURE! - in com.scholanova.projectstore.repositories.StocksRepositoryTest
+whenStoreExists_thenReturnsTheStore  Time elapsed: 0.043 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <true>
+to be equal to:
+ <false>
+but was not.
+	at com.scholanova.projectstore.repositories.StocksRepositoryTest.whenStoreExists_thenReturnsTheStore(StocksRepositoryTest.java:28)
+

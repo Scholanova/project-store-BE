@@ -1,0 +1,10 @@
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/models/Stocks.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/controllers/StatusController.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/models/Store.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/repositories/StoreRepository.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/exceptions/ModelNotFoundException.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/services/StoreService.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/ProjectStoreApplication.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/controllers/StoreController.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/repositories/StocksRepository.java
+/home/eva/IdeaProjects/project-store-BE/src/main/java/com/scholanova/projectstore/exceptions/StoreNameCannotBeEmptyException.java

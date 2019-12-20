@@ -1,0 +1,5 @@
+/home/eva/IdeaProjects/project-store-BE/src/test/java/com/scholanova/projectstore/ProjectStoreApplicationTests.java
+/home/eva/IdeaProjects/project-store-BE/src/test/java/com/scholanova/projectstore/repositories/StoreRepositoryTest.java
+/home/eva/IdeaProjects/project-store-BE/src/test/java/com/scholanova/projectstore/repositories/StocksRepositoryTest.java
+/home/eva/IdeaProjects/project-store-BE/src/test/java/com/scholanova/projectstore/controllers/StoreControllerTest.java
+/home/eva/IdeaProjects/project-store-BE/src/test/java/com/scholanova/projectstore/services/StoreServiceTest.java

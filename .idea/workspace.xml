@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d42eacc8-4e58-46c8-83ad-00c018cfb8bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scholanova/projectstore/repositories/StocksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scholanova/projectstore/repositories/StocksRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/scholanova/projectstore/repositories/StocksRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/scholanova/projectstore/repositories/StocksRepositoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VC93gv2nUnxBH27AEqYlw2sXjM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestSpring" />
+  </component>
+  <component name="RunManager" selected="JUnit.com.scholanova.projectstore in project-store">
+    <configuration name="All in project-store" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-store" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.scholanova.projectstore in project-store" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scholanova.projectstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scholanova.projectstore" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.scholanova.projectstore in project-store" />
+        <item itemvalue="JUnit.All in project-store" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d42eacc8-4e58-46c8-83ad-00c018cfb8bc" name="Default Changelist" comment="" />
+      <created>1576746011458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576746011458</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="581" y="149" width="814" height="807" key="CommitChangelistDialog2" timestamp="1576845192282">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="581" y="149" width="814" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1576845192282" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576751950597">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576751950597" />
+    <state width="1807" height="257" key="GridCell.Tab.0.bottom" timestamp="1576751952461">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576751952461" />
+    <state width="1807" height="257" key="GridCell.Tab.0.center" timestamp="1576751952460">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576751952460" />
+    <state width="1807" height="257" key="GridCell.Tab.0.left" timestamp="1576751952460">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576751952460" />
+    <state width="1807" height="257" key="GridCell.Tab.0.right" timestamp="1576751952461">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576751952461" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1576831395007">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576831395007" />
+    <state x="737" y="426" width="714" height="301" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576748490498">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="737" y="426" width="714" height="301" key="org.intellij.images.editor.actions.BackgroundImageDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576748490498" />
+    <state x="657" y="253" key="run.anything.popup" timestamp="1576749093535">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576749093535" />
+    <state x="657" y="198" width="672" height="676" key="search.everywhere.popup" timestamp="1576748486294">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="198" width="672" height="676" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576748486294" />
+  </component>
+</project>
