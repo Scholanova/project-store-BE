@@ -65,4 +65,17 @@ public class StocksRepository {
 				.findFirst()
 				.orElseThrow(ModelNotFoundException::new);
 	}
+
+//	public void delete(Integer id) throws ModelNotFoundException{
+//
+//		String query = "DELETE FROM STORES " +
+//				"WHERE ID = :id";
+//
+//		SqlParameterSource parameters = new MapSqlParameterSource()
+//				.addValue("id", id);
+//		int nbLinesModified = jdbcTemplate.update(query, parameters);
+//		if(nbLinesModified == 0) {
+//			throw new ModelNotFoundException();
+//		}
+//	}
 }
